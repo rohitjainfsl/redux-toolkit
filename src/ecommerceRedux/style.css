@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product{
+    width: 22%;
+    height: 300px;
+}
+.product img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.cart-items{
+    width: 70vw;
+}
+.item{
+    display: flex;
+}
+.item .left{width: 30%;}
+.item .left img{width: 100%; height: 150px;}
+.item .right{width: 70%;}
